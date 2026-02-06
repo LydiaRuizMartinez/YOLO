@@ -3,8 +3,6 @@
 A **modular, extensible and fully-tested transfer learning framework** built with PyTorch.  
 Designed to compare different fine-tuning strategies across **natural image datasets and medical imaging data**.
 
-> Focused on clean ML architecture, reproducibility, and real-world engineering practices.
-
 ---
 
 ## 🚀 Project Highlights
@@ -26,7 +24,7 @@ Designed to compare different fine-tuning strategies across **natural image data
 ├── src/             # Core framework implementation
 ├── tests/           # Unit and integration tests
 ├── README.md
-├── pyproject.toml   # Tooling configuration (black, mypy)
+├── pyproject.toml   # Tooling configuration 
 ├── pytest.ini
 ├── uv.lock
 └── .python-version
@@ -113,16 +111,6 @@ Run the full test suite:
 pytest tests
 ```
 
-Code quality checks:
-
-```bash
-black --check .
-mypy src tests
-flake8 src tests --max-line-length 88
-```
-
----
-
 ## 🛠️ Tech Stack
 
 - Python  
@@ -130,4 +118,10 @@ flake8 src tests --max-line-length 88
 - NumPy  
 - scikit-learn  
 - Matplotlib  
-- pytest  
+- pytest
+
+---
+
+> Transfer learning shifts the focus from training models to reusing representations;
+this project explores that shift through modular design and systematic evaluation.
+
